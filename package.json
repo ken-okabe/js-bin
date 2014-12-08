@@ -1,0 +1,19 @@
+{
+  "name": "js-bin",
+  "version": "1.0.0",
+  "description": "js-bin ======",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenokabe/js-bin"
+  },
+  "author": "Ken Okabe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenokabe/js-bin/issues"
+  },
+  "homepage": "https://github.com/kenokabe/js-bin"
+}

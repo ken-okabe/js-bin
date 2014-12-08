@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=JS Bin
+Comment=JS Bin Offline REPL
+Exec=bash '"$(dirname "$1")"/jsbin.sh'
+Icon=/home/ken/Google Drive/js-bin/code.png
+Terminal=true
+Type=Application
+Categories=Utility;Application;
