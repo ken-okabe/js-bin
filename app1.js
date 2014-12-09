@@ -4,10 +4,9 @@ var app = require('app');
 var BrowserWindow = require('browser-window');
 var mainWindow = null;
 
-// Quit when all windows are closed.
 app
   .on('window-all-closed', function()
-  {
+  { // Quit when all windows are closed.
     if (process.platform != 'darwin')
       app.quit();
   })
@@ -19,6 +18,6 @@ app
 
     setTimeout(function()
     {
-      mainWindow.loadUrl('http://localhost:3000');
+      mainWindow.loadUrl('http://localhost:3000?html,js,console');
     }, 1000);
   });
