@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/kenokabe/js-bin/issues"
   },
-  "homepage": "https://github.com/kenokabe/js-bin"
+  "homepage": "https://github.com/kenokabe/js-bin",
+  "dependencies": {
+    "jsbin": "^3.11.23",
+    "atom-shell": "^1.2.0"
+  },
+  "devDependencies": {}
 }
