@@ -2,8 +2,8 @@
 Version=1.0
 Name=JS Bin
 Comment=JS Bin Offline REPL
-Exec=bash '"$(dirname "$1")"/jsbin.sh'
+Exec=node '/home/ken/Google Drive/js-bin/app.js' 
 Icon=/home/ken/Google Drive/js-bin/code.png
-Terminal=true
+Terminal=false
 Type=Application
 Categories=Utility;Application;
